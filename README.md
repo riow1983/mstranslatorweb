@@ -23,8 +23,9 @@ $ pip install mstranslator
 >>>original = "今朝の朝食はとんかつでした。"
 >>>translator.translate(original, lang_from='ja', lang_to='en')
 >>>'Breakfast this morning was the tonkatsu.'
-うん、ちゃんと動いているようです。
 ```
+うん、ちゃんと動いているようです。
+
 
 ##手順４：実装（当レポジトリの内容）
 入力フォームに日本語か英語を入力し、翻訳ボタンを押すと翻訳文が表示され、と同時にDBに翻訳前文と翻訳文がセットで保存されるという仕組みのWebアプリケーションを作成しました。詳細はコードを確認してください。
