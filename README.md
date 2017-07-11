@@ -26,7 +26,7 @@ $ pip install mstranslator
 >>>translator.translate(original, lang_from='ja', lang_to='en')
 >>>'Breakfast this morning was the tonkatsu.'
 ```
-うん、ちゃんと動いているようです。
+うん、ちゃんと動いているようです。ちなみにYOUR_ACCESS_KEYにはTransralotr APIのaccess keyが入ります。
 
 
 ## 手順４：実装（当レポジトリの内容）
